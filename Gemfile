@@ -10,6 +10,8 @@ gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.1.1'
 
+## Gemfile for Rails 3+, Sinatra, or Merb
+gem 'will_paginate', '~> 3.0.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
