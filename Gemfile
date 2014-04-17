@@ -10,6 +10,7 @@ gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'simple_form'
+gem 'devise'
 
 ## Gemfile for Rails 3+, Sinatra, or Merb
 gem 'will_paginate', '~> 3.0.5'
