@@ -30,7 +30,6 @@ ActiveRecord::Schema.define(version: 20140608214537) do
 
   create_table "photos", force: true do |t|
     t.text     "caption"
-    t.integer  "user_id"
     t.integer  "place_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -38,7 +37,6 @@ ActiveRecord::Schema.define(version: 20140608214537) do
   end
 
   add_index "photos", ["place_id"], name: "index_photos_on_place_id", using: :btree
-  add_index "photos", ["user_id", "place_id"], name: "index_photos_on_user_id_and_place_id", using: :btree
 
   create_table "places", force: true do |t|
     t.string   "name"
