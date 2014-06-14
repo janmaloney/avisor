@@ -1,3 +1,10 @@
 // Place all the styles related to the places controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.pagination {
+  .previous_page { background:lightgray; color:#2a6496;  border-radius: 6px; padding: 5px}
+  .previous_page.disabled { background: gray; color: white;  border-radius: 6px; padding: 5px }
+  .current { background: paleblue }
+  .next_page { background: lightgray; color: #2a6496;  border-radius: 6px; padding: 5px }
+  .next_page.disabled { background: gray; color: white;  border-radius: 6px; padding: 5px }
+}
