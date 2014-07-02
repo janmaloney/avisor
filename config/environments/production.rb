@@ -9,7 +9,7 @@ Avisor::Application.configure do
     :enable_starttls_auto => true
   }
 
-  config.action_mailer.default_url_options = { :host => 'avisor-janice-maloney.herokuapp.com'}
+  config.action_mailer.default_url_options = { :host => 'pure-chamber-7703.herokuapp.com'}
 
   # Settings specified here will take precedence over those in config/application.rb.
 
